@@ -1,0 +1,114 @@
+.prenav {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lnav {
+    background-color: #F0A83E;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainbanner {
+    background-image: url(../img/bowl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainbanner h2 {
+    color: #3C2313;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.mainbanner p {
+    color: #3C2313;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.mainbanner button {
+    background: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+.categorias a, .categorias p {
+    text-decoration: none;
+    color: #666666;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.articulo {
+    background: #FBFAF6;
+}
+
+.nombreArticulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    -size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+} 
+
+.precioArticulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.contacto h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    text-align: center;
+}
+
+.contacto button {
+    border-radius: 15px;
+    border-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}

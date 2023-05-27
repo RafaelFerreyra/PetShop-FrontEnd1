@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetShop</title>
 
-    <!-- Css -->
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilo -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!-- Inicio de la cabecera -->
     <header>
-      <div>
-        <p>Grandes foertas en comederos</p>
+      <div class="prenav">
+        <p>Grandes ofertas en comederos</p>
         <div>
           <p>Español</p>
           <p>ARG$</p>
@@ -23,11 +28,9 @@
       </div>
 
       <!-- Logo + nav -->
-      <section>
+      <section class="lnav">
         <div>
-          <img src="img/Cat.svg" alt="" />
-          Front Cat&Dog
-          <img src="img/Dog.svg" alt="" />
+          <img src="img/Logo.svg" alt="" />
         </div>
 
         <nav>
@@ -50,7 +53,7 @@
     <!-- Inicio del main -->
     <main>
       <!-- Bienvenida -->
-      <section>
+      <section class="mainbanner">
         <h2>¡Es un placer tenerte aquí!</h2>
         <p>¡Comederos en descuento!</p>
         <button>COMEDEROS</button>
@@ -63,40 +66,40 @@
         </div>
         <div>
           <h1>Productos Destacados</h1>
-          <div>
-            <a href="">Comederos</a>
-            <a href="">Accesorios</a>
+          <div class="categorias">
+            <a href="">Comederos -</a>
+            <a href="">Accesorios -</a> 
             <a href="">Comida</a>
           </div>
         </div>
       </section>
 
       <section>
-        <article>
+        <article class="articulo">
           <img src="img/churrasquito.png" alt="Churrasquito" />
-          <p>Juguete Churrasquito</p>
-          <p>$150</p>
+          <p class="nombreArticulo">Juguete Churrasquito</p>
+          <p class="precioArticulo">$150</p>
         </article>
-        <article>
+        <article class="articulo">
           <img src="img/comedero.png" alt="Comedero para perro" />
-          <p>Comedero para perro</p>
-          <p>250</p>
+          <p class="nombreArticulo">Comedero para perro</p>
+          <p class="precioArticulo">$250</p>
         </article>
-        <article>
+        <article class="articulo">
           <img src="img/churrasquito.png" alt="Juguete Huesito" />
-          <p>Juguete Huesito</p>
-          <p>$650</p>
+          <p class="nombreArticulo">Juguete Huesito</p>
+          <p class="precioArticulo">$650</p>
         </article>
       </section>
 
       <!-- Contactanos -->
-      <section>
+      <section class="contacto">
         <h2>Contactanos</h2>
         <div>
           <input value="Nombre y apellido" />
           <input value="Ingresá tu correo electrónico" />
           <input value="Teléfono" />
-          <button>Resetear</button>
+          <button class="">Resetear</button>
           <button>Enviar</button>
         </div>
       </section>

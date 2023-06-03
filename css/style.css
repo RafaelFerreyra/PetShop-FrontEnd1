@@ -1,22 +1,58 @@
-.prenav {
-    background-color: #222222;
-    color: #F3F3F3;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
+.prenav {
+    background-color: #222222;
+    height: 20px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arg {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+header p {
+    margin-left: 90px;
+    margin-right: 30px;
+    font-size: 10px;
+}
+
 .lnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #F0A83E;
+    height: 62px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
 }
 
 nav ul li {
     list-style: none;
     color: white;
+    margin: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .mainbanner {
@@ -24,16 +60,23 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 400px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .mainbanner h2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
     color: #3C2313;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
+    margin: 12px;
 }
 
 .mainbanner p {
@@ -41,20 +84,23 @@ nav ul li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    margin-right: 90px;
+    margin-bottom: 10px;
 }
 
 .mainbanner button {
     background: #F0A83E;
+    padding: 10px 20px 10px 20px;
     border-radius: 5px;
     border-style: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: white;
+    margin-right: 115px;
 }
 
 h1 {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -62,22 +108,46 @@ h1 {
     color: #3C2313;
 }
 
+.destacados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.huellita {
+    height: 70px;
+    margin: 10px;
+}
+
+.categorias {
+    margin: 20px 0 30px 0;
+}
+
 .categorias a, .categorias p {
     text-decoration: none;
     color: #666666;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
 }
 
+.articulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #FBFAF6;
+    margin: 10px;
 }
 
 .nombreArticulo {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     -size: 15px;
@@ -86,16 +156,15 @@ h1 {
 } 
 
 .precioArticulo {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     color: #F0A83E;
+    margin-bottom: 5px;
 }
 
 .contacto h2 {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;

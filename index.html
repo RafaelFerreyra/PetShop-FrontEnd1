@@ -8,9 +8,12 @@
     <title>PetShop</title>
 
     <!-- Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Hoja de estilo -->
     <link rel="stylesheet" href="css/style.css" />
@@ -60,15 +63,18 @@
 
       <!-- Productos destacados -->
       <section class="destacados">
-        <img class="huellita" src="img/pawprint-orange.svg" alt="Huella naranja" />
+        <img
+          class="huellita"
+          src="img/pawprint-orange.svg"
+          alt="Huella naranja"
+        />
         <div>
           <h1>Productos Destacados</h1>
         </div>
-          <div class="categorias">
-            <a href="">Comederos -</a>
-            <a href="">Accesorios -</a> 
-            <a href="">Comida</a>
-          
+        <div class="categorias">
+          <a href="">Comederos -</a>
+          <a href="">Accesorios -</a>
+          <a href="">Comida</a>
         </div>
       </section>
 
@@ -92,13 +98,15 @@
 
       <!-- Contactanos -->
       <section class="contacto">
-        <h2>Contactanos</h2>
-        <div>
+        <h2>Contáctanos</h2>
+        <div class="form">
           <input value="Nombre y apellido" />
           <input value="Ingresá tu correo electrónico" />
           <input value="Teléfono" />
-          <button class="">Resetear</button>
-          <button>Enviar</button>
+          <div class="buttoms">
+            <button class="reset">Resetear</button>
+            <button class="send">Enviar</button>
+          </div>
         </div>
       </section>
     </main>
@@ -106,7 +114,7 @@
     <!-- Inicio del footer -->
     <footer>
       <!-- Banner suscribite -->
-      <section>
+      <section class="banner">
         <div>
           <img src="img/enviar-correo 1.svg" alt="" />
           <p>Suscríbete para más novedades</p>
@@ -118,28 +126,37 @@
       </section>
 
       <!-- Informacion del Petshop -->
-      <section>
-        <div>
-          <div>
+      <section class="footer">
+        <div class="datos">
+          <div class="infobox">
             <img src="/img/locacion.svg" alt="" />
-            <h2>Localidad</h2>
-            <p>Calle - provincia</p>
+            <div>
+              <h2>Localidad</h2>
+              <p>Calle - provincia</p>
+            </div>
           </div>
-          <div>
+          <div class="infobox">
             <img src="/img/telefono.svg" alt="" />
-            <h2>Teléfono</h2>
-            <p>Número de teléfono</p>
+            <div>
+              <h2>Teléfono</h2>
+              <p>Número de teléfono</p>
+            </div>
           </div>
-          <div>
+          <div class="infobox">
             <img src="/img/mail.svg" alt="" />
-            <h2>Correo Electrónico</h2>
-            <p>Dirección de correo</p>
+            <div>
+              <h2>Correo Electrónico</h2>
+              <p>Dirección de correo</p>
+            </div>
           </div>
+        </div>
+        <div class="logofooter">
+          <img src="img/Logo2.svg" alt="" />
         </div>
       </section>
 
       <!-- Copyright -->
-      <section>
+      <section class="copyright">
         <p>Todos los derechos reservados Front End</p>
       </section>
     </footer>

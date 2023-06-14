@@ -55,6 +55,11 @@ nav ul li a {
   font-size: 15px;
 }
 
+.burger {
+  display: none;
+  margin: 20px;	
+}
+
 .mainbanner {
   background-image: url(../img/bowl.png);
   background-repeat: no-repeat;
@@ -299,3 +304,39 @@ background: #222222;
 padding: 5px;
 }
 
+@media screen and (max-width: 425px) {
+
+  .prenav {
+   display: none;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  
+.burger {
+  display: flex;
+  margin: 20px;	
+}
+
+.articulos {
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.banner {
+  flex-direction: column;
+}
+
+.logofooter {
+  order: -1;
+}
+
+.footer {
+  flex-direction: column;
+
+}
+
+}
